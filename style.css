@@ -24,9 +24,13 @@ background-image: linear-gradient(orange, tomato);}
 
 
 }
-#likes{box-shadow:2px 2px 2px 5px black ;display: flex;}
+#likes{box-shadow:2px 2px 2px 2px whitesmoke ; border-radius: 5%; margin: 5%;
+display: flex;}
 #centre{text-align: center;}
 .followers{ text-align: center;
   
 width: 33%;}
+footer{ width:100%; padding-top:10px;padding-bottom:10px;
+    color:white;background-color: black;
+text-align: center;}
 
