@@ -1,36 +1,58 @@
-.orang-color{color: orange;}
-.h{ display: flex; }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.orang-color{
+    color: orange;
+}
+.display-flex{
+    display: flex; }
+
 #background{
     background-image: url(back.png);
-}.link-button{border-radius:5%;
+}
+
+.link-button{
+    border-radius:5%;
     text-decoration: none;
     color:white;
     padding:5px 10px;
-background-image: linear-gradient(orange, tomato);}
-.half-width{margin:5%;
+    background-image: linear-gradient(orange, tomato);
+}
+
+.half-width{
+    margin:5%;
     padding-left:5%; 
     padding-right: 10%; 
     width: 30%;
      border-color: violet;}
-.recipie{ box-shadow:5px 5px 10px 10px whitesmoke;
+
+ #centre{text-align: center;}    
+
+.recipie{ 
+    box-shadow:5px 5px 10px 10px whitesmoke;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 2%;
     padding-bottom: 2%;
     margin: 2%;
-    
     border-radius: 5%;
-
-
-
 }
-#likes{box-shadow:2px 2px 2px 2px whitesmoke ; border-radius: 5%; margin: 5%;
-display: flex;}
-#centre{text-align: center;}
-.followers{ text-align: center;
-  
-width: 33%;}
-footer{ width:100%; padding-top:10px;padding-bottom:10px;
+
+#likes{
+    box-shadow: 2px 2px 5px 5px whitesmoke ; 
+    border-radius: 5%;
+    margin: 5%;
+    display: flex;
+}
+.followers{ 
+    text-align: center;
+    width: 33%;}
+
+footer{
+     width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
     color:white;background-color: black;
-text-align: center;}
+    text-align: center;
+}
 
